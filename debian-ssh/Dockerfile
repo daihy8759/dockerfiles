@@ -1,6 +1,6 @@
 FROM debian:latest
 
-MAINTAINER DAIHY <dai875939260@gmail.com>
+LABEL maintainer="dai875939260@gmail.com"
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
   openssh-server \
